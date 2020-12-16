@@ -49,27 +49,21 @@
 
 ---
 
-### BullMQ
+### BullMQ 4 Beta
 
-If you want to start using the next major version of Bull written entirely in Typescript you are welcome to the new repo [here](https://github.com/taskforcesh/bullmq). Otherwise you are very welcome to still use Bull, which is a safe, battle tested codebase.
-
----
-
-### Official FrontEnd
-
-[<img src="http://taskforce.sh/assets/logo_square.png" width="100" alt="Taskforce.sh, Inc" style="padding: 100px"/>](https://taskforce.sh)
-
-Super charge your queues with a profesional front end and optional Redis hosting:
-- Get a complete overview of all your queues.
-- Inspect jobs, search, retry, or promote delayed jobs.
-- Metrics and statistics.
-- and many more features.
-
-Sign up at [Taskforce.sh](https://taskforce.sh)
+If you want to start using the next major version of Bull you are welcome to the new repo [here](https://github.com/taskforcesh/bullmq)
 
 ---
 
-### Bull Features
+### Sponsors
+
+If you find Bull valuable, please consider sponsoring its development by using the Taskforce front-end &nbsp; [<img src="http://taskforce.sh/assets/logo_square.png" width="100" alt="Taskforce.sh, Inc" style="padding: 100px"/>](https://taskforce.sh). 
+
+Besides helping Bull's development, you will also benefit from a constantly-improving UI for managing all of your queues and jobs.
+
+---
+
+### Features
 
 - [x] Minimal CPU usage due to a polling-free design.
 - [x] Robust design based on Redis.
@@ -315,7 +309,7 @@ A job can be added to a queue and processed repeatedly according to a cron speci
 ```
 
 As a tip, check your expressions here to verify they are correct:
-[cron expression generator](https://crontab.cronhub.io)
+[cron expression descriptor](http://cronexpressiondescriptor.azurewebsites.net/)
 
 #### Pause / Resume
 
